@@ -1,0 +1,77 @@
+.my-orders {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    color: #2d2b2b;
+    background-color: #e5fae0;
+  }
+  
+  .my-orders h1 {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px; /* Adjust based on your needs */
+  }
+  
+  .card-header, .order-card {
+    display: grid;
+    grid-template-columns: 0.6fr 0.7fr 1.3fr 1fr 2.3fr; /* Adjust the column sizes as needed */
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .card-header {
+    background: #64b07c;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .card-header p {
+    font-weight: bold;
+  }
+  
+  .order-card {
+    background: #75b3894e;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .order-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .order-item div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-item p {
+    margin: 0;
+  }
+
+  span{
+    color: rgb(211, 75, 75);
+  }
+  

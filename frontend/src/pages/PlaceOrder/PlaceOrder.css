@@ -1,0 +1,76 @@
+.place-order {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.place-order-left {
+    width: 100%;
+    max-width: max(30%, 500px);
+    padding-right: 60px;
+}
+
+.place-order-left .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.place-order-left input {
+    color: black;
+    background-color: white;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: rgba(40, 128, 60, 0.854);
+}
+
+.place-order-left .multi-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.place-order-left input.error {
+    border-color: red;
+}
+
+.place-order-right{
+    width: 100%;
+    max-width: max(40%, 500px);
+}
+
+.place-order-right .cartitems-total button{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+.paymentmethod{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.paymentmethod p{
+    font-size: 13px;
+}
+
+.paymentmethod select{
+    color: black;
+    background-color: white;
+    margin-bottom: 15px;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: rgba(40, 128, 60, 0.854);
+}
+

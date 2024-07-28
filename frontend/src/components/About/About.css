@@ -1,0 +1,39 @@
+.about{
+    background-color: #e0db7b80;
+    margin: 1px auto;
+    height: auto;
+    background-size: contain;
+    position: relative;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    animation: fadeIn 1s;
+
+}
+
+.background{
+    align-items: center;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    background: #87878736;
+    width: 90%;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+.left{
+    padding: 20px 70px;
+    padding-left: 100px;
+    
+}
+
+.right{
+    padding: 20px 50px;
+}

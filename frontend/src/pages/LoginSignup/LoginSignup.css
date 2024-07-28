@@ -1,0 +1,103 @@
+.loginSignup {
+    background-color: #e49c9cad;
+    margin: 1px auto;
+    height: auto;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.loginSignup-container {
+    color: white;
+    margin-top: 50px;
+    background-color: #a25c5c6f;
+    border-radius: 20px;
+    line-height: 120px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginSignup-fields {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.loginSignup-container input {
+    background-color: #a25c5c6f;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+}
+
+.loginSignup-container input:hover {
+    box-shadow: 1px 3px 4px 1px #8b4a4ab5;
+}
+
+.lsbutton {
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    background-color: #d46565e5;
+    color: rgb(237, 227, 227);
+}
+
+.lsbutton:hover {
+    box-shadow: 1px 3px 4px 1px #9c3a3a8c;
+    background-color: #de5353d0;
+    cursor: pointer;
+}
+
+.loginSignup-container p,
+.loginSignup-container button {
+    text-align: center;
+}
+
+.loginSignup-login span {
+    font-size: 18px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.loginSignup-login span:hover {
+    color: #edc7c7e4;
+}
+
+.password-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-field input {
+    flex: 1;
+    padding-right: 30px; /* Add space for the icon */
+}
+
+.password-toggle-icon img {
+    position: absolute;
+    right: 10px;
+    width: 21px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.error-message {
+    color: red;
+    background-color: #dcbbbb7d;
+    text-align: center;
+    border-radius: 10px; 
+    padding: 0px 0px; /* Adjust padding for a snug fit */
+    width: 95%; /* Expand width */  
+}

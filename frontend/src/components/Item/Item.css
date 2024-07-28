@@ -1,0 +1,135 @@
+.item {
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background: rgba(142, 126, 109, 0.24);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    line-height: 3.5vh;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    
+}
+
+.item img {
+    width: 200px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.item p {
+    margin: 6px 10px;
+}
+
+.item-price {
+    position: absolute;
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.cart_button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    width: 130px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.description {
+    padding-top: 10px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.modal1 {
+display: flex;
+flex-direction: column;
+position: fixed;
+top: 50%;
+left: 50%;
+right: auto;
+bottom: auto;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+background: white;
+padding: 20px;
+width: 350px;
+height: 200px;
+border-radius: 8px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+z-index: 1000;
+align-items: center;
+justify-content: center;
+}
+
+.modal-overlay {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.5);
+z-index: 999;
+}
+
+.modal h2 {
+margin-top: 0;
+}
+
+.modal p {
+margin: 10px 0;
+}
+  
+.modal1 button {
+margin-right: 10px;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+background: #32b659;
+color: white;
+cursor: pointer;
+}
+
+.modal1 button:hover{
+    background: #257d3f;
+}
+
+.modal1 button:last-of-type {
+background: #6c757d;
+}
+
+.modal1 button:last-of-type:hover {
+    background: #ad3737;
+    }
+
+
+.buttons{
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.buttons button{
+    width: 130px;
+}

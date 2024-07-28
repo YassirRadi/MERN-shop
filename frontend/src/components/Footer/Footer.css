@@ -1,0 +1,141 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #f5edceef;
+    margin: 1px auto;
+    height: auto;
+    background-size: contain;
+    position: relative;
+    display: flex;
+}
+
+.footer.pink {
+    background-color: #ecd893;
+}
+
+.footer.yellow {
+    background-color: #ddc678ba;
+}
+
+.footer.green {
+    background-color: #dd7878b4;
+}
+
+.footer.gg {
+    background-color: #0692459a;
+}
+.footer.lightgreen {
+    background-color: #72d3b6b3;
+}
+.footer.pp {
+    background-color: #c27df39c;
+}
+
+.footer.r {
+    background-color: rgba(48, 181, 101, 0.699);
+}
+
+
+.footer.b{
+    background-color: rgba(101, 158, 233, 0.596);
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo img{
+    width: 300px;
+    height: 100px;
+}
+
+.footer-logo p {
+    color: #383838;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 20px;
+}
+
+.footer-links li{
+    cursor: pointer;
+}
+
+.footer-social-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+   
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #e18c8c;
+}
+
+.footer-icons-container img{
+    width: 40px;
+}
+
+@media(max-width:800px){
+    .footer{
+        gap: 20px;
+    }
+
+    .footer-logo{
+        gap: 10px;
+        align-items: end;
+    }
+
+    .footer-logo img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-logo p{
+        font-size: 25px;
+    }
+
+    .footer-links{
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .footer-social-icon img{
+        width: 22px;
+    }
+
+    .footer-copyright{
+        font-size: 13px;
+    }
+}

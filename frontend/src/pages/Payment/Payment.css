@@ -1,0 +1,98 @@
+/* Payment.css */
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #0d864e65;
+    min-height: 100vh;
+  }
+  
+  .payment-form {
+    background: rgba(255, 255, 255, 0.272);
+    margin-top: -50px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .payment-form input[type="text"],
+  .payment-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .payment-form input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-form input[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  .payment-form h3 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .confirmbuttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .confirmbuttons button {
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .confirmbuttons button:last-child {
+    background: #6c757d;
+  }
+  
+  button .ok {
+    padding: 10px 20px;
+    border: none;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  

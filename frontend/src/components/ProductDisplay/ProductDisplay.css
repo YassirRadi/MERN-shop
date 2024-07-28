@@ -1,0 +1,100 @@
+.productdisplay {
+    display: flex;
+    margin: 0px 120px;
+    background-color: rgba(62, 148, 202, 0.315);
+    margin: 1px auto;
+    height: auto;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.display {
+    line-height: 40px;
+    background: #959b9d4f;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.productdisplay-main-img {
+    width: 400px;
+    height: 300px;
+}
+
+.productdisplay-right {
+    margin: 0px 70px;
+}
+
+.productdisplay-right h1 {
+    color: #3d3d3d;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.productdisplay-right-price {
+    color: #0f9049;
+    font-size: 22px;
+}
+
+.productdisplay-right button {
+    padding: 7px 2px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background: #FF4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productdisplay-right-category {
+    margin-top: 0px;
+}
+
+.productdisplay-right-category span {
+    font-weight: 500;
+}
+
+.food-item-counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #3d3d3d;
+    background: white;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.food-item-counter img {
+    cursor: pointer;
+}
+
+.addtocart{
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    background-color: #d46565e5;
+    color: rgb(237, 227, 227);
+}
+
+
+.addtocart:hover{
+    box-shadow: 1px 3px 4px 1px #9c3a3a8c;
+    cursor: pointer;
+}

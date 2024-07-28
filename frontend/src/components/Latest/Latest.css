@@ -1,0 +1,30 @@
+.latest {
+    background-color: #fff4ca;
+    margin: 1px auto;
+    height: auto;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  
+  .latest h1 {
+    color: #EE8D8D;
+    padding-top: 50px;
+  }
+  
+  .latest hr {
+    width: 150px;
+    height: 6px;
+    border-radius: 10px;
+    background: #EE8D8D;
+  }
+  
+  .latest_items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
